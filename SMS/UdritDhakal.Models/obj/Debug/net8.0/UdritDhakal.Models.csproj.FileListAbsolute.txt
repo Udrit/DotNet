@@ -1,0 +1,12 @@
+D:\SMS\UdritDhakal.Models\bin\Debug\net8.0\UdritDhakal.Models.deps.json
+D:\SMS\UdritDhakal.Models\bin\Debug\net8.0\UdritDhakal.Models.dll
+D:\SMS\UdritDhakal.Models\bin\Debug\net8.0\UdritDhakal.Models.pdb
+D:\SMS\UdritDhakal.Models\obj\Debug\net8.0\UdritDhakal.Models.csproj.AssemblyReference.cache
+D:\SMS\UdritDhakal.Models\obj\Debug\net8.0\UdritDhakal.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\SMS\UdritDhakal.Models\obj\Debug\net8.0\UdritDhakal.Models.AssemblyInfoInputs.cache
+D:\SMS\UdritDhakal.Models\obj\Debug\net8.0\UdritDhakal.Models.AssemblyInfo.cs
+D:\SMS\UdritDhakal.Models\obj\Debug\net8.0\UdritDhakal.Models.csproj.CoreCompileInputs.cache
+D:\SMS\UdritDhakal.Models\obj\Debug\net8.0\UdritDhakal.Models.dll
+D:\SMS\UdritDhakal.Models\obj\Debug\net8.0\refint\UdritDhakal.Models.dll
+D:\SMS\UdritDhakal.Models\obj\Debug\net8.0\UdritDhakal.Models.pdb
+D:\SMS\UdritDhakal.Models\obj\Debug\net8.0\ref\UdritDhakal.Models.dll

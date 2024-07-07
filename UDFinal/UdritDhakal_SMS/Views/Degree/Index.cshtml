@@ -1,0 +1,511 @@
+﻿@model Prabin_SMS.Models.ViewModels.DegreeViewModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> userManager
+@{
+    var user = await userManager.GetUserAsync(User);
+}
+
+<form asp-action="Search" method="get">
+
+    <div class="input-group" style="background:transparent">
+        <input type="text" class="form-control" asp-for="degreeSearchViewModel.Query" placeholder="Degree" aria-describedby="basic-addon2" style="background: transparent;">
+        <div class="input-group-append">
+            <input class="btn btn-outline-secondary" type="submit" value="Search"/>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3" style="background: transparent !important; ">
+        <div class="container-fluid" style="padding-left:0px">
+            <div class="navbar-collapse justify-content-between align-items-start" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item" style="font-size:10px; padding-right: 0px">
+                        <textarea id="Search" class="form-control form-control-sm" placeholder="search" rows="1" style="background: transparent; color: #605050"></textarea>
+                        <div class="form-group">
+                            <select asp-for="degreeSearchViewModel.CourseId" id="CourseList" class="form-control form-control-sm" style="background: transparent; color: #605050">
+                                <option selected>Courses</option>
+                            </select>
+                            <span class="text-danger"></span>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <select asp-for="degreeSearchViewModel.Level" class="form-select form-select-sm" aria-label=".form-select-sm example" style="background: transparent; color: #605050">
+                            <option selected disabled value="null">Level</option>
+                            <option value="null">All</option>
+                            <option value="MASTERS">MASTERS</option>
+                            <option value="BACHELORS">BACHELORS</option>
+                        </select>
+                    </li>
+
+                    <li class="nav-item">
+                        <select asp-for="degreeSearchViewModel.DisciplineId" class="form-select form-select-sm" aria-label=".form-select-sm example" asp-items="@(new SelectList(ViewBag.Discipline,"Id","Name"))" style="background: transparent;color: #605050">
+                            <option selected disabled value="null">Discipline</option>
+                            <option value="null">All</option>
+                        </select>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <div class="row g-3 align-items-center">
+                            <div class="col-auto">
+                                <label for="inputPassword6" class="col-form-label" style="background: transparent;color: #605050">Start Date</label>
+                            </div>
+                            <div class="col-auto">
+                                <input asp-for="degreeSearchViewModel.StartDate" type="date" class="form-control form-control-sm" style="background: transparent; color: #605050" />
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</form>
+
+@if (Model.Degree != null)
+{
+    <div class="row d-flex justify-content-center mt-5" style="font-family: cursive;
+                                                                color: #767272;
+                                                                background: transparent;">
+        <div class="col-1"><h2>Degree</h2></div>
+        <div class="col-1 ms-3">
+            @if (User.IsInRole("ADMIN")){
+                    <a class="btn btn-secondary float-end" asp-action="AddEdit" style="background: transparent; color: #000000ad;">Add</a>
+            }
+         </div>
+    </div>
+}
+
+
+<div class="row">
+    <div class="col-12">
+        <table class="table mt-3" style="font-family: cursive;color: #000000ad; border-width:0px; border-collapse:separate; border-spacing:40px">
+            <thead style="font-size:15.2px; text-align:center">
+                <tr>
+                    <th>
+                        S.N
+                    </th>
+                    <th>
+                        Degree Name
+                    </th>
+                    <th>
+                        Degree Description
+                    </th>
+                    <th>
+                        Total Years
+                    </th>
+                    <th>
+                        Start Date
+                    </th>
+                    
+                    <th>
+                        Total Seats
+                    </th>
+                    
+
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int count = 1;
+                }
+                @foreach (var items in Model?.Degree)
+                {
+                   
+                    <tr>
+                        <td>
+                            @count
+                        </td>
+                        <td>
+                            @items.DegreeName
+                        </td>
+                        <td>
+                            @items.DegreeDescription
+                        </td>
+                        <td>
+                            @items.No_Of_Years
+                        </td>
+                        <td>
+                            @items.StartDate.ToShortDateString()
+                            
+                        </td>
+                        @if(items.TotalSeats != 0)
+                            {
+                                <td>
+                                     @items.TotalSeats 
+                                </td>
+                            }
+                        else
+                            {
+                                <td>
+                                Not Set
+                                </td>
+                            }
+                            
+                        
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+
+                            <td>
+                                <a class="btn btn-secondary buttontable" asp-action="AddEdit" asp-route-id="@items.Id">
+                                    @if (User.IsInRole("ADMIN"))
+                                    {
+                                        @:Edit
+                                    }
+                                    else
+                                    {
+                                        @:Details
+                                    }
+                                </a>
+                            </td>
+                        }
+                        else
+                        {
+                            <td>
+                                <a class="btn btn-secondary buttontable" asp-action="AddEdit" asp-route-id="@items.Id">
+                                    Details
+                                </a>
+                            </td>
+                        }
+
+
+
+
+                        @if (SignInManager.IsSignedIn(User) && User.IsInRole("USER"))
+                        {
+                            if (user.HasEnrolled == false)
+                            {
+                                <td>
+                                    
+                                    <button class="Enroll btn btn-secondary buttontable" value="@items.Id">Enroll</button>
+                                    <p id="EnrollSpan" class="text-danger"></p>
+                                    <input class="Name" value="@items.DegreeName" hidden />
+                                </td>
+                            }
+                        }
+                        @if (!SignInManager.IsSignedIn(User))
+                        {
+
+                            <td>
+                                <a class="btn btn-secondary buttontable" asp-area="Identity" asp-page="/Account/Register">Enroll</a>
+                            </td>
+
+                        }
+                    </tr>
+                    
+                        count = count + 1;
+                    
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+<div id="StudentModal" class="modal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header" style="background: repeating-linear-gradient(180deg, #d3d3d399, transparent 100px); border-bottom: 0px;">
+                <div class="row">
+                    <div class="col-12">
+                            <div class="form-floating">
+                                <select class="form-control addEditInput" disabled>
+                                    <option disabled selected id="DegreeId" value="null">CHOOSE</option>
+                                </select>
+                                <label>JOIN</label>
+                            </div>
+                    </div>
+                </div>
+
+                <button type="button" class="btn-close" data-bs-dismiss="modal" onclick="$('#StudentModal').hide();" aria-label="Close">X</button>
+            </div>
+
+                
+            <div class="modal-body" style="background: repeating-linear-gradient(180deg, #d3d3d399, transparent 100px)">
+                <form>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="col-12  d-flex flex-column align-items-center">
+                                <label>Photo</label>
+                                <div class="image-uploaded">
+                                    <img src="~/images/NoPhoto.png" id="NoStuPhoto" class="NoPhoto img-thumbnail align-center addEditModalImage" style="height:100px;width:100px;">
+                                </div>
+
+                                <div class="row">
+                                    <div class="input-group input-file mt-1 justify-content-center">
+
+                                        <label class="input-group-btn">
+                                            <span class="btn btn-outline-secondary" style="font-size:12px">
+                                                Upload
+                                                <input id="studentPhoto" type="file" accept="image/*" class="form-control file-upload" onchange="readURL(this,'NoStuPhoto' )" style="display: none;" />
+                                                <span class="text-danger"></span>
+                                            </span>
+                                        </label>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="col-12 d-flex flex-column align-items-center">
+                                <label>Transcript Photo</label>
+                                <div class="image-uploaded">
+
+                                    <img src="~/images/NoPhoto.png" id="NoTransPhoto" class="NoPhoto img-thumbnail align-center addEditModalImage" style="height:100px;width:100px;">
+
+
+                                </div>
+
+                                <div class="input-group input-file mt-1 justify-content-center">
+                                    <label class="input-group-btn ">
+                                        <span class="btn btn-outline-secondary" style="font-size:12px">
+                                            Upload
+                                            <input id="transcriptPhoto" class="form-control file-upload" type="file" accept="image/*" onchange="readURL(this, 'NoTransPhoto')" style="display: none;" />
+                                            <span class="text-danger"></span>
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="col-12 d-flex flex-column align-items-center">
+                                <label>Citizenship Photo</label>
+                                <div class="image-uploaded">
+
+                                    <img src="~/images/NoPhoto.png" id="NoCitizenPhoto" class="NoPhoto img-thumbnail align-center addEditModalImage" style="height:100px;width:100px;">
+
+                                </div>
+
+                                <div class="input-group input-file mt-1 justify-content-center">
+                                    <label class="input-group-btn ">
+                                        <span class="btn btn-outline-secondary" style="font-size:12px">
+                                            Upload
+                                            <input id="citizenshipPhoto" class="form-control file-upload" type="file" accept="image/*" onchange="readURL(this , 'NoCitizenPhoto')" style="display: none;" />
+                                            <span class="text-danger"></span>
+                                        </span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row"> 
+                            <div class="col-6 mt-3">
+                                <div class="form-floating">
+                                    <input id="FirstName" class="form-control addEditInput" autocomplete="username" aria-required="true" />
+                                    <label>First Name</label>
+                                    <span class="text-danger" id="ValidFirstName"></span>
+                                </div>
+                            </div>
+                       
+
+                            <div class="col-6 mt-3">
+                                <div class="form-floating">
+                                    <input id="LastName" class="form-control addEditInput" autocomplete="username" aria-required="true" />
+                                    <label>Last Name</label>
+                                    <span class="text-danger" id="ValidLastName"></span>
+                                </div>
+                            </div>
+                    </div>
+
+
+
+                    <div class="row">
+
+                        <div class="col-4 mt-3">
+                            <div class="form-floating">
+                                <input id="Email" class="form-control addEditInput" autocomplete="username" aria-required="true" />
+                                <label>Email</label>
+                                <span class="text-danger" id="ValidEmail"></span>
+                            </div>
+                        </div>
+
+
+                        <div class="col-4 mt-3">
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input id="PhoneNumber" class="form-control addEditInput" autocomplete="username" aria-required="true" />
+                                    <label>PhoneNumber</label>
+                                    <span class="text-danger" id="ValidPhoneNumber"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4 mt-3">
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input id="Address" class="form-control addEditInput" autocomplete="username" aria-required="true" />
+                                    <label>Address</label>
+                                    <span class="text-danger" id="ValidAddress"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4" >
+                        <button class="btn btn-outline-secondary float-end" id="submit" style="border:0px">Submit</button>
+                    </div>
+                   
+                            
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script>
+        function readURL(input, noImgID) {
+            debugger;
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                var $noImgElement = $('#' + noImgID);
+                
+                    reader.onload = function (e) {
+                        $noImgElement.attr('src', e.target.result);
+                    }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $(".Enroll").on('click',function () {
+            debugger;
+            
+            if ('@user?.IsActive'!='False') {
+                    var Id = $(this).val();
+                    var Name = $(this).siblings('.Name').val();
+                    $("#DegreeId").val(Id);
+                    $("#DegreeId").text(Name);
+                    $("#StudentModal").show();
+            }
+            else
+            {
+                $("#EnrollSpan").text("Inactive Account")
+            }
+        });
+
+        
+
+        $("#submit").click(function () {
+           debugger;
+            var debug = validForm();
+            if (validForm()) {
+                debugger;
+                var DegreeId = $("#DegreeId").val();
+                var FirstName = $("#FirstName").val();
+                var LastName = $("#LastName").val();
+                var Email = $("#Email").val();
+                var Address = $("#Address").val();
+                var PhoneNumber = $("#PhoneNumber").val();
+                var SectionId = 0;
+                var Semester = 0;
+                var studentUrl = null;
+                var transcriptPhotoUrl = null;
+                var citizenPhotoUrl = null;
+                var IsEnrolled = false;
+
+
+                var stuPhoto = $("#studentPhoto")[0].files;
+                var transPhoto = $("#transcriptPhoto")[0].files;
+                var citizenPhoto = $("#citizenshipPhoto")[0].files;
+
+                var studentData = new FormData();
+
+                studentData.append("DegreeId", DegreeId);
+                studentData.append("FirstName", FirstName);
+                studentData.append("LastName", LastName);
+                studentData.append("Email", Email);
+                studentData.append("Address", Address);
+                studentData.append("PhoneNumber", PhoneNumber);
+                studentData.append("SectionId", SectionId);
+                studentData.append("Semester", Semester);
+                studentData.append("studentUrl", studentUrl);
+                studentData.append("transcriptPhotoUrl", transcriptPhotoUrl);
+                studentData.append("citizenPhotoUrl", citizenPhotoUrl);
+                studentData.append("IsEnrolled", IsEnrolled);
+
+                for (var i = 0; i < stuPhoto.length; i++) {
+                    studentData.append("studentPhoto", stuPhoto[i]);
+                }
+
+                for (var i = 0; i < transPhoto.length; i++) {
+                    studentData.append("transcriptPhoto", transPhoto[i]);
+                }
+
+                for (var i = 0; i < transPhoto.length; i++) {
+                    studentData.append("citizenshipPhoto", citizenPhoto[i]);
+                }
+
+                $.ajax(
+                    {
+                        url: "/api/Degree/PostStudent",
+                        data: studentData,
+                        method: "post",
+                        processData: false,
+                        contentType: false,
+                    }
+                ).done(function (data) {
+                    location.reload();
+                }).fail(function (jqXHR, textStatus, errorThrown) {
+                    console.error("AJAX error: " + textStatus + ' : ' + errorThrown);
+                    console.error("Response: ", jqXHR.responseText);
+                });
+                
+            }
+            
+        });
+
+
+        function validForm() {
+
+            var currValues = [$("#FirstName").val(),
+            $("#Email").val(),
+            $("#LastName").val(),
+            $("#Address").val(),
+            $("#PhoneNumber").val()
+            ];
+
+            var val = '#Valid';
+            var values = ['FirstName', 'Email', 'LastName', 'Address', 'PhoneNumber'];
+            var id = '';
+            var isValid = true;
+            for (let i = 0; i < values.length; i++) {
+                id = val + values[i];
+                if (!currValues[i]) {
+                    $(id).text(values[i] + ' field is empty');
+                    isValid = false;
+                }
+                else $(id).text('');
+            }
+            return isValid;
+        }
+
+        $("#Search").keyup(function () {
+            debugger;
+            var query = $("#Search").val();
+            $("#CourseList").empty();
+
+            $.ajax({
+                url: '/api/Degree/getAllCourses',
+                data: { query: query },
+                method: 'GET'
+            }).done(function (data) {
+
+                var options = "";
+                $.each(data["courses"], function (index, value) {
+                    options += '<option  value="' + value["id"] + '">' + value["courseName"] + '</option>';
+                });
+                $("#CourseList").append(options);
+            }).fail(function () {
+            });
+        });
+
+        
+    </script>
+}

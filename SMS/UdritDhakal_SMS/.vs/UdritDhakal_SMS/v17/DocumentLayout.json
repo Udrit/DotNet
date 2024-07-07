@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SMS\\UdritDhakal_SMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53C19D71-C5CE-4FF5-8F6F-78EA8FF39AB5}|..\\UdritDhakal.Repositories\\UdritDhakal.Repositories.csproj|d:\\sms\\udritdhakal.repositories\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C19D71-C5CE-4FF5-8F6F-78EA8FF39AB5}|..\\UdritDhakal.Repositories\\UdritDhakal.Repositories.csproj|d:\\sms\\udritdhakal.repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53C19D71-C5CE-4FF5-8F6F-78EA8FF39AB5}|..\\UdritDhakal.Repositories\\UdritDhakal.Repositories.csproj|d:\\sms\\udritdhakal.repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D5D81BD-5386-4EBA-9690-80DE5FE9B192}|UdritDhakal_SMS.csproj|d:\\sms\\udritdhakal_sms\\areas\\admin\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D5D81BD-5386-4EBA-9690-80DE5FE9B192}|UdritDhakal_SMS.csproj|solutionrelative:areas\\admin\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D5D81BD-5386-4EBA-9690-80DE5FE9B192}|UdritDhakal_SMS.csproj|d:\\sms\\udritdhakal_sms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0D5D81BD-5386-4EBA-9690-80DE5FE9B192}|UdritDhakal_SMS.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D5D81BD-5386-4EBA-9690-80DE5FE9B192}|UdritDhakal_SMS.csproj|d:\\sms\\udritdhakal_sms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D5D81BD-5386-4EBA-9690-80DE5FE9B192}|UdritDhakal_SMS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96918011-BC4C-4A21-9609-A2F812B7DC99}|..\\UdritDhakal.UtiIities\\UdritDhakal.UtiIities.csproj|d:\\sms\\udritdhakal.utiiities\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D5D81BD-5386-4EBA-9690-80DE5FE9B192}|UdritDhakal_SMS.csproj|d:\\sms\\udritdhakal_sms\\areas\\admin\\views\\students\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0D5D81BD-5386-4EBA-9690-80DE5FE9B192}|UdritDhakal_SMS.csproj|solutionrelative:areas\\admin\\views\\students\\addstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C404E7-0FAF-46CD-8D18-49086F96237D}|..\\UdritDhakal.Services\\UdritDhakal.Services.csproj|d:\\sms\\udritdhakal.services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C404E7-0FAF-46CD-8D18-49086F96237D}|..\\UdritDhakal.Services\\UdritDhakal.Services.csproj|d:\\sms\\udritdhakal.services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96918011-BC4C-4A21-9609-A2F812B7DC99}|..\\UdritDhakal.UtiIities\\UdritDhakal.UtiIities.csproj|d:\\sms\\udritdhakal.utiiities\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\SMS\\UdritDhakal.Repositories\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Repositories\\IUnitOfWork.cs",
+              "ToolTip": "D:\\SMS\\UdritDhakal.Repositories\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\UdritDhakal.Repositories\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T02:46:10.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\SMS\\UdritDhakal.Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Repositories\\IGenericRepository.cs",
+              "ToolTip": "D:\\SMS\\UdritDhakal.Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "..\\UdritDhakal.Repositories\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T02:46:06.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SMS\\UdritDhakal_SMS\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\SMS\\UdritDhakal_SMS\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-20T14:42:05.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "D:\\SMS\\UdritDhakal.Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Services\\StudentService.cs",
+              "ToolTip": "D:\\SMS\\UdritDhakal.Services\\StudentService.cs",
+              "RelativeToolTip": "..\\UdritDhakal.Services\\StudentService.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAgwC4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:58:13.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "D:\\SMS\\UdritDhakal.Services\\IStudentService.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Services\\IStudentService.cs",
+              "ToolTip": "D:\\SMS\\UdritDhakal.Services\\IStudentService.cs",
+              "RelativeToolTip": "..\\UdritDhakal.Services\\IStudentService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:25:50.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "D:\\SMS\\UdritDhakal.UtiIities\\PagedResult.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.UtiIities\\PagedResult.cs",
+              "ToolTip": "D:\\SMS\\UdritDhakal.UtiIities\\PagedResult.cs",
+              "RelativeToolTip": "..\\UdritDhakal.UtiIities\\PagedResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:22:39.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\SMS\\UdritDhakal.Repositories\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Repositories\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\SMS\\UdritDhakal.Repositories\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\UdritDhakal.Repositories\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T17:55:38.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SMS\\UdritDhakal_SMS\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\SMS\\UdritDhakal_SMS\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAACUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T06:57:25.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\SMS\\UdritDhakal.UtiIities\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.UtiIities\\DbInitializer.cs",
+              "ToolTip": "D:\\SMS\\UdritDhakal.UtiIities\\DbInitializer.cs",
+              "RelativeToolTip": "..\\UdritDhakal.UtiIities\\DbInitializer.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwCEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T13:25:48.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "D:\\SMS\\UdritDhakal_SMS\\Areas\\Admin\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\StudentsController.cs",
+              "ToolTip": "D:\\SMS\\UdritDhakal_SMS\\Areas\\Admin\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T04:09:42.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddStudent.cshtml",
+              "DocumentMoniker": "D:\\SMS\\UdritDhakal_SMS\\Areas\\Admin\\Views\\Students\\AddStudent.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Students\\AddStudent.cshtml",
+              "ToolTip": "D:\\SMS\\UdritDhakal_SMS\\Areas\\Admin\\Views\\Students\\AddStudent.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Students\\AddStudent.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T12:37:45.168Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

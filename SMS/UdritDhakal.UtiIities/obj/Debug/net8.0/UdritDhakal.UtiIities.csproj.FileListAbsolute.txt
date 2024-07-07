@@ -1,0 +1,17 @@
+D:\SMS\UdritDhakal.UtiIities\bin\Debug\net8.0\UdritDhakal.UtiIities.deps.json
+D:\SMS\UdritDhakal.UtiIities\bin\Debug\net8.0\UdritDhakal.UtiIities.dll
+D:\SMS\UdritDhakal.UtiIities\bin\Debug\net8.0\UdritDhakal.UtiIities.pdb
+D:\SMS\UdritDhakal.UtiIities\obj\Debug\net8.0\UdritDhakal.UtiIities.GeneratedMSBuildEditorConfig.editorconfig
+D:\SMS\UdritDhakal.UtiIities\obj\Debug\net8.0\UdritDhakal.UtiIities.AssemblyInfoInputs.cache
+D:\SMS\UdritDhakal.UtiIities\obj\Debug\net8.0\UdritDhakal.UtiIities.AssemblyInfo.cs
+D:\SMS\UdritDhakal.UtiIities\obj\Debug\net8.0\UdritDhakal.UtiIities.csproj.CoreCompileInputs.cache
+D:\SMS\UdritDhakal.UtiIities\obj\Debug\net8.0\UdritDhakal.UtiIities.dll
+D:\SMS\UdritDhakal.UtiIities\obj\Debug\net8.0\refint\UdritDhakal.UtiIities.dll
+D:\SMS\UdritDhakal.UtiIities\obj\Debug\net8.0\UdritDhakal.UtiIities.pdb
+D:\SMS\UdritDhakal.UtiIities\obj\Debug\net8.0\ref\UdritDhakal.UtiIities.dll
+D:\SMS\UdritDhakal.UtiIities\obj\Debug\net8.0\UdritDhakal.UtiIities.csproj.AssemblyReference.cache
+D:\SMS\UdritDhakal.UtiIities\bin\Debug\net8.0\UdritDhakal.Models.dll
+D:\SMS\UdritDhakal.UtiIities\bin\Debug\net8.0\UdritDhakal.Repositories.dll
+D:\SMS\UdritDhakal.UtiIities\bin\Debug\net8.0\UdritDhakal.Models.pdb
+D:\SMS\UdritDhakal.UtiIities\bin\Debug\net8.0\UdritDhakal.Repositories.pdb
+D:\SMS\UdritDhakal.UtiIities\obj\Debug\net8.0\UdritDha.88FAC90C.Up2Date

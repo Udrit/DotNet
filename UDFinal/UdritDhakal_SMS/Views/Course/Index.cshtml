@@ -1,0 +1,93 @@
+﻿@model IEnumerable<Prabin_SMS.Models.Entity.Course>
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+
+<div class="row">
+    <div class="col-12">
+        <h3 class="align-content-center">Courses</h3>
+        @if (User.IsInRole("ADMIN"))
+        {
+            <a class="btn btn-primary float-end" asp-action="AddEdit">Add</a>
+        }
+    </div>
+</div>
+
+
+
+
+<div class="row">
+    <div class="col-12">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>S.N.</th>
+                    <th>
+                        Course Name
+                    </th>
+                    <th>
+                        Course Description
+                    </th>
+                    <th>
+                        Credit Hours
+                    </th>
+                    <th>
+                        Full Marks
+                    </th>
+                    <th>
+                        Active
+                    </th>
+                    @if (SignInManager.IsSignedIn(User) && User.IsInRole("ADMIN"))
+                    {
+                        <th></th>
+                    }
+                    
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int count = 1;
+                }
+                @foreach (var items in Model)
+                {
+                    <tr>
+                        <td>
+                            @count
+                        </td>
+                        <td>
+                            @items.CourseName
+                        </td>
+                        <td>
+                            @items.CourseDescription
+                        </td>
+                        <td>
+                            @items.CreditHours
+                        </td>
+                        <td>
+                            @items.FullMarks
+                        </td>
+                        
+                        <td>
+                            @if (items.IsActive == true)
+                            {
+                                @:True
+                            }
+                            else
+                            {
+                                @:False
+                            }
+
+                        </td>
+                        @if (SignInManager.IsSignedIn(User) && User.IsInRole("ADMIN"))
+                        {
+                            <td>
+                                <a class="btn btn-primary float-end" asp-action="AddEdit" asp-route-id="@items.Id">Edit</a>
+                            </td>
+                        }
+                    </tr>
+                    count = count + 1;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

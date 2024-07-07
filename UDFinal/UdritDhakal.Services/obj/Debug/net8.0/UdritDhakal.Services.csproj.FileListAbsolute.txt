@@ -1,0 +1,12 @@
+D:\UDFinal\UdritDhakal.Services\bin\Debug\net8.0\UdritDhakal.Services.deps.json
+D:\UDFinal\UdritDhakal.Services\bin\Debug\net8.0\UdritDhakal.Services.dll
+D:\UDFinal\UdritDhakal.Services\bin\Debug\net8.0\UdritDhakal.Services.pdb
+D:\UDFinal\UdritDhakal.Services\obj\Debug\net8.0\UdritDhakal.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\UDFinal\UdritDhakal.Services\obj\Debug\net8.0\UdritDhakal.Services.AssemblyInfoInputs.cache
+D:\UDFinal\UdritDhakal.Services\obj\Debug\net8.0\UdritDhakal.Services.AssemblyInfo.cs
+D:\UDFinal\UdritDhakal.Services\obj\Debug\net8.0\UdritDhakal.Services.csproj.CoreCompileInputs.cache
+D:\UDFinal\UdritDhakal.Services\obj\Debug\net8.0\UdritDhakal.Services.dll
+D:\UDFinal\UdritDhakal.Services\obj\Debug\net8.0\refint\UdritDhakal.Services.dll
+D:\UDFinal\UdritDhakal.Services\obj\Debug\net8.0\UdritDhakal.Services.pdb
+D:\UDFinal\UdritDhakal.Services\obj\Debug\net8.0\ref\UdritDhakal.Services.dll
+D:\UDFinal\UdritDhakal.Services\obj\Debug\net8.0\UdritDhakal.Services.csproj.AssemblyReference.cache

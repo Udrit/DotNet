@@ -1,0 +1,15 @@
+D:\PMS\UdritDhakal.Infrastructure\obj\Debug\net8.0\UdritDhakal.Infrastructure.csproj.AssemblyReference.cache
+D:\PMS\UdritDhakal.Infrastructure\obj\Debug\net8.0\UdritDhakal.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\PMS\UdritDhakal.Infrastructure\obj\Debug\net8.0\UdritDhakal.Infrastructure.AssemblyInfoInputs.cache
+D:\PMS\UdritDhakal.Infrastructure\obj\Debug\net8.0\UdritDhakal.Infrastructure.AssemblyInfo.cs
+D:\PMS\UdritDhakal.Infrastructure\obj\Debug\net8.0\UdritDhakal.Infrastructure.csproj.CoreCompileInputs.cache
+D:\PMS\UdritDhakal.Infrastructure\bin\Debug\net8.0\UdritDhakal.Infrastructure.deps.json
+D:\PMS\UdritDhakal.Infrastructure\bin\Debug\net8.0\UdritDhakal.Infrastructure.dll
+D:\PMS\UdritDhakal.Infrastructure\bin\Debug\net8.0\UdritDhakal.Infrastructure.pdb
+D:\PMS\UdritDhakal.Infrastructure\bin\Debug\net8.0\UdritDhakal.Models.dll
+D:\PMS\UdritDhakal.Infrastructure\bin\Debug\net8.0\UdritDhakal.Models.pdb
+D:\PMS\UdritDhakal.Infrastructure\obj\Debug\net8.0\UdritDha.63C58027.Up2Date
+D:\PMS\UdritDhakal.Infrastructure\obj\Debug\net8.0\UdritDhakal.Infrastructure.dll
+D:\PMS\UdritDhakal.Infrastructure\obj\Debug\net8.0\refint\UdritDhakal.Infrastructure.dll
+D:\PMS\UdritDhakal.Infrastructure\obj\Debug\net8.0\UdritDhakal.Infrastructure.pdb
+D:\PMS\UdritDhakal.Infrastructure\obj\Debug\net8.0\ref\UdritDhakal.Infrastructure.dll

@@ -1,0 +1,148 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - UdritDhakal.</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/UdritDhakal..styles.css" asp-append-version="true" />
+    <style>
+        th{
+            border-bottom:0px !important
+        }
+
+        a{
+            color: #000000ad !important;
+            background: transparent !important
+        }
+
+        button{
+            color: #000000ad !important;
+            background: transparent !important
+        }
+
+        td{
+            border-bottom: 2px solid #635252 !important;
+            text-align: center
+        }
+
+        .buttontable{
+            margin-top: -6px !important;
+            border-radius: 10px !important;
+            line-height: 20px !important;
+        }
+
+        input[type="range"]::-webkit-slider-runnable-track {
+            background: #e5d1d1;
+        }
+
+        input[type='range']::-webkit-slider-thumb {
+            background: #c9abab;
+        }
+
+        input{
+            background: transparent !important ;
+            color: #767272;
+        }
+
+        select{
+            background: transparent !important
+        }
+        
+        .addEditInput {
+            color: #767272;
+            border-bottom: 1px solid !important;
+            border: 0px;
+        }
+
+        .addEditModalImage{
+            background: #b7b7b7;
+            border: 1px solid #f5f0db;
+            height: 145px !important;
+            width: 145px !important;
+            border-radius: 10%;
+        }
+
+        .ball{
+            background: #767272;
+            height: 10px;
+            width:10px
+        }
+
+        .addEditImage{
+            background:#b7b7b7;
+            border: 1px solid #f5f0db;
+        }
+
+        .addEditImgUser{
+            background: #b7b7b7;
+            border-radius:50%
+
+        }
+
+        label{
+            color: #605050
+        }
+    </style>
+
+</head>
+<body style="background: #f3efd7; font-family: cursive;">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light mb-3" >
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Degree" asp-action="Index" style="color: #000000ad !important">UdritDhakal.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                        
+                        
+                        
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Degree" asp-action="Index">Degree</a>
+                            </li>
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Course" asp-action="Index">Course</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Student" asp-action="Index">Student</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Discipline" asp-action="Index">Discipline</a>
+                            </li>
+                        }
+                    </ul>
+                    @if (User.IsInRole("SUPERADMIN"))
+                    {
+                        <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Index">Account</a>
+                    }
+                    <partial name="_LoginPartial"></partial>
+                </div>
+               
+                
+
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+   
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

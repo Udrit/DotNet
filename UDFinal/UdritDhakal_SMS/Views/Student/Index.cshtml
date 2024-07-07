@@ -1,0 +1,263 @@
+﻿@model Prabin_SMS.Models.ViewModels.StudentViewModel
+@using Microsoft.AspNetCore.Identity
+@using Prabin_SMS.Models.Enum
+@inject SignInManager<ApplicationUser> signInManager
+
+
+<div class="row">
+    <div class="col-12">
+        <form asp-action="Search" method="GET">
+
+            <div class="input-group" style="background:transparent">
+                <input type="text" class="form-control" asp-for="studentSearchViewModel.Query" placeholder="Students" aria-describedby="basic-addon2" style="background: transparent;">
+                <div class="input-group-append">
+                    <input class="btn btn-outline-secondary" type="submit" value="Search" />
+                </div>
+            </div>
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3" style="background: transparent !important;">
+                <div class="container-fluid" style="padding-left:0px">
+                    <div class="navbar-collapse justify-content-between align-items-start" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item" style="font-size:10px; padding-right: 0px">
+                                <textarea id="SearchDegree" class="form-control form-control-sm" placeholder="search" rows="1" style="background: transparent; color: #605050"></textarea>
+                                <div class="form-group">
+                                    <select asp-for="studentSearchViewModel.DegreeId" id="DegreeList" class="form-control form-control-sm" style="background: transparent; color: #605050">
+                                        <option selected>Degree</option>
+                                    </select>
+                                    <span class="text-danger"></span>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <select asp-for="studentSearchViewModel.SectionId" class="form-select form-select-sm" aria-label=".form-select-sm example" asp-items="@(Html.GetEnumSelectList<Prabin_SMS.Models.Enum.SectionEnum>())" style="background: transparent;color: #605050">
+                                    <option selected disabled value="null">Section</option>
+                                    <option value="null">All</option>
+                                </select>
+                            </li>
+                            <li class="nav-item">
+                                <label class="form-label" style="color: #605050">Semester:</label>
+                                <output id="output" style="background: transparent;color: #605050">8</output>
+                                <input type="range" asp-for="studentSearchViewModel.Semester" class="form-range" id="customRange" oninput="this.nextElementSibling.value = this.value" min="0" max="8">
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <div class="row g-3 align-items-center">
+                                    <div class="col-auto">
+                                    <label for="inputPassword6" class="col-form-label" style="background: transparent;color: #605050">Start Date</label>
+                                    </div>
+                                    <div class="col-auto">
+                                    <input asp-for="studentSearchViewModel.Batch" type="date" class="form-control form-control-sm" style="background: transparent;color: #605050" />
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </form>
+    </div>
+</div>
+
+@if (Model.Students != null)
+{
+    <div class="row d-flex justify-content-center mt-5" style="font-family: cursive;
+                                                                color: #767272;
+                                                                background: transparent;">
+        <div class="col-1"><h2>Student</h2></div>
+        <div class="col-1 ms-3">
+            @if (User.IsInRole("ADMIN"))
+            {
+                <a class="btn btn-secondary float-end" asp-action="AddEdit" style="background: transparent; color: #000000ad;">Add</a>
+            }
+        </div>
+    </div>
+}
+<div class="row" style="scrollbar-width: thin;
+                    scrollbar-color: #d7c3c3 #f1edd2 !important;
+                    overflow-x: scroll;">
+    <div class="col-12">
+        <table class="table" style="font-family: cursive;color: #000000ad; border-width:0px; border-collapse:separate; border-spacing:40px; margin-left:-1.2vw">
+            <thead style="font-size:15.2px">
+                <tr>
+                    <th>S.N.</th>
+                    <th>
+                        Email
+                    </th>
+                    <th>
+                        First Name
+                    </th>
+                    <th>
+                        Last Name
+                    </th>
+                    
+                    <th>
+                        Address
+                    </th>
+                    <th>
+                        PhoneNumber
+                    </th>
+                    <th>
+                        Batch
+                    </th>
+                    <th>
+                        Semester
+                    </th>
+                    <th>
+                        Section
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int count = 1;
+                }
+                @foreach (var items in Model.Students)
+                {
+                    <tr>
+                        <td>
+                            @count
+                        </td>
+                        <td>
+                            @items.Email
+                        </td>
+                        <td>
+                            @items.FirstName
+                        </td>
+                        <td>
+                            @items.LastName
+                        </td>
+                        <td>
+                            @items.Address
+                        </td>
+                        <td>
+                            @items.PhoneNumber
+                        </td>
+                        <td>
+                            @if (@items.Batch == null)
+                            {
+                               @:Not Set
+                            }
+                            else
+                            {
+                                @items.Batch
+                            }
+
+                        </td>
+                        @if(items.Semester!=0)
+                        {
+                            <td>
+                                @items.Semester 
+                            </td>
+                        }
+                        else
+                        {
+                            <td>
+                                Not Set
+                            </td>
+                        }
+                        @if (items.SectionId != 0 && items.SectionId !=null)
+                        {
+                            <td>
+                                @Html.Raw((SectionEnum)items.SectionId)
+                            </td>
+                        }
+                        else
+                        {
+                            <td>
+                                Not Set
+                            </td>
+                        }
+                        @if (User.IsInRole("ADMIN"))
+                        {
+                            @if (items.IsEnrolled == true)
+                            {
+                                <td><a class="btn btn-secondary buttontable" onclick="Enroll(@items.Id)">DeEnroll</a></td>
+                            }
+                            else
+                            {
+                                <td><a class="btn btn-secondary buttontable" onclick="Enroll(@items.Id)">Enroll</a></td>
+                            }
+                        }
+
+                       
+                            @if(signInManager.IsSignedIn(User) && (User.IsInRole("ADMIN") || User.IsInRole("STUDENT")))
+                            {
+                                @if (User.IsInRole("STUDENT")) {
+                              
+                                    <td>
+                                        <a class="btn btn-secondary buttontable" asp-action="AddEdit" asp-route-id="@items.Id">Details</a>
+                                    </td>
+                                      
+                                }
+                                else
+                                {
+                                    <td>
+                                         <a class="btn btn-secondary buttontable" asp-action="AddEdit" asp-route-id="@items.Id">Edit</a>
+                                    </td>   
+                                }
+                            }
+                        
+                    </tr>
+                    count = count + 1;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="col-3"></div>
+
+@section Scripts {
+
+<script>
+    function Enroll(itemid) {
+        window.location.href = '/Student/EnrollmentStatus?Id=' + itemid;
+    }
+
+    $("#SearchDegree").keyup(function () {
+        var query = $("#SearchDegree").val();
+        $("#DegreeList").empty();
+        
+
+        $.ajax({
+            url: '/api/Degree/getDegrees',
+            data: { query: query },
+            method: 'GET'
+        }).done(function (data) {
+            console.log(data);
+                var options = "<option value=null selected>None</option>";
+            $.each(data["degreeList"], function (index, value) {
+                options += '<option class=".DegreeListItem" value="' + value["id"] + '">' + value["degreeName"] + '</option><span class="Dsemester" hidden>'+value["no_Of_Semesters"]+'</span>';
+
+            });
+            $("#DegreeList").append(options);
+        }).fail(function () {
+        });
+    });
+
+    $("#DegreeList").on('change',function () {
+        debugger;
+        if ($(this).val() != null) { 
+            debugger;
+            var selected = $(this).find("option:selected");
+            var value = selected.nextAll('span').text();
+             $('#output').text(value);
+             $('#customRange').attr('max', value);
+        }
+    })
+
+    
+
+    $("#customRange").on('click', function () {
+        var num = $(this).val();
+        $('#output').text(num);
+    });
+
+    
+</script>
+
+
+}
+

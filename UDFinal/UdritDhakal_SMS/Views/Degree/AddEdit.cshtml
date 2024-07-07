@@ -1,0 +1,384 @@
+﻿@model Prabin_SMS.Models.Entity.Degree
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+
+
+<div class="row">
+    <div class="col-lg-9" style="margin-left:15%">
+        <form action="AddEdit" method="post" style="
+                                                    box-shadow: 5px 3px 15px 9px #d1c6ba;
+                                                    border-left: 1px solid #bfb5b5;
+                                                    border-right: 1px solid #bfb5b5;
+                                                    border-bottom: 1px solid #bfb5b5;
+                                            ">
+
+    
+                    
+
+                <div class="row d-flex justify-content-center mt-5" style="font-family: cursive;
+                                                                                color: #767272;
+                                                                                background: transparent;">
+                    <div class="col-1" style="
+                                    margin-top: 11px;">
+                        <h2>Degree</h2>
+                    </div>
+
+
+                    @if (User.IsInRole("ADMIN"))
+                    {
+                        <div class="col-2 ms-5" style="
+                                    margin-top: 11px;">
+                            <button class="btn btn-secondary" type="submit" style="background: transparent; color: #000000ad;">
+                                @if (Model.Id == 0)
+                                {
+                                    @:Add
+                                }
+                                else
+                                {
+                                    @:Edit
+                                }
+                            </button>
+                        </div>
+                    }
+                </div>
+        
+                    
+                    <input asp-for="Id" id="Id" hidden />
+                    <div class="row  d-flex justify-content-around mt-5">
+                        <div class="col-4">
+                                <input asp-for="DegreeName" class="form-control addEditInput" autocomplete="username" aria-required="true"/>
+                            <label asp-for="DegreeName" style="color: #605050"></label>
+                        </div>
+                        <div class="col-4">
+                                <input asp-for="DegreeDescription" class="form-control addEditInput" autocomplete="username" aria-required="true" />
+                            <label asp-for="DegreeDescription" style="color: #605050"></label>
+                                <span asp-validation-for="DegreeDescription" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row  d-flex justify-content-around mt-5">
+                        <div class="col-4">
+                            <input asp-for="TotalSeats" id="TotalSeats" class="form-control addEditInput" autocomplete="username" aria-required="true" />
+                            <label asp-for="TotalSeats" style="color: #605050"></label>
+                            <span asp-validation-for="TotalSeats" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-4">
+                            <input id="RemainingSeats" class="form-control addEditInput" autocomplete="username" aria-required="true" disabled />
+                            <label style="color: #605050">Remaining Seats</label>
+                        </div>
+                    </div>
+
+                    <div class="row  d-flex justify-content-around  mt-5">
+                        <div class="col-4">
+                                <select asp-for="DisciplineId" class="form-control addEditInput" autocomplete="username" aria-required="true" asp-items="@(new SelectList(ViewBag.Discipline,"Id","Name"))">
+                                            <option disabled selected value="null">--CHOOSE</option>
+                                        </select>
+                            <label asp-for="DisciplineId" style="color: #605050"></label>
+                                    <span asp-validation-for="DisciplineId" class="text-danger"></span>
+                        </div>
+                        <div class="col-4">
+                                <select asp-for="Academic_Level" class="form-control addEditInput" autocomplete="username" aria-required="true">
+                                    <option disabled selected value="null">--CHOOSE--</option>
+                                    <option  value="MASTERS">MASTERS</option>
+                                    <option  value="BACHELORS">BACHELORS</option>
+                                </select>
+                            <label asp-for="Academic_Level" style="color: #605050"></label>
+                                <span asp-validation-for="Academic_Level" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row  d-flex justify-content-around mt-5">
+
+                        <div class="col-4">
+                            <label for="customRange1" class="form-label" asp-for="No_Of_Semesters" style="color: #605050"></label>
+                            <output style="color: #605050"></output>
+                            <input type="range" asp-for="No_Of_Semesters" class="form-range chooseRange" min="0" max="8">
+            
+                            <span asp-validation-for="No_Of_Semesters" class="text-danger"></span>
+                        </div>
+
+                        <div class="col-4">
+                            <label for="customRange1" class="form-label" asp-for="No_Of_Years" style="color: #605050"></label>
+                            <output style="color: #605050"></output>
+                            <input type="range" asp-for="No_Of_Years" class="form-range chooseRange" min="0" max="8">
+                                <span asp-validation-for="No_Of_Years" class="text-danger"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="row  d-flex mt-5" style="margin-left: -2vw; justify-content:space-evenly">
+                        <div class="col-3">
+                            <input type="date" asp-for="StartDate" class="form-control addEditInput" />
+                            <label class="form-label" style="color: #605050">Start Date</label>
+                            <span id="validproduct" class="text-danger"></span>
+                            <span asp-validation-for="StartDate" class="text-danger"></span>
+                        </div>
+                        @if(User.IsInRole("ADMIN"))
+                        {
+                        <div class="col-3">
+                            <div class="form-group">
+                                <input type="checkbox" asp-for="IsActive">
+                                <label class="form-check-label" asp-for="IsActive" style="color: #605050">
+
+                                </label>
+                                <span asp-validation-for="IsActive" class="text-danger"></span>
+                            </div>
+                        </div>
+                        }
+                    </div>
+       
+        </form>
+    </div>
+</div>
+
+@if (Model.Id != 0)
+{
+    <div class="row mt-5" style="color: #605050">
+        <h2 style="text-align:center">Semester and Courses</h2>
+        <hr />
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-3">
+            <div class="form-group">
+                <label class="form-check-label" style="color: #605050">Semester</label>
+                <select id="SemesterList" class="form-control" style="color: #605050">
+                    <option selected disabled>Choose Semester</option>
+                </select>
+                <span class="text-danger"></span>
+            </div>
+        </div>
+        <br />
+        <br />
+
+
+        @if (User.IsInRole("ADMIN"))
+        {
+        <div class="col-3">
+            <label class="form-check-label" style="color: #605050">Add Courses</label>
+            <textarea id="Search" class="form-control" placeholder="Search" rows="1" style="color: #605050"></textarea>
+            <div class="form-group">
+                <select id="CourseList" class="form-control">
+                    <option selected value="null">None</option>
+                </select>
+                <span class="text-danger"></span>
+            </div>
+        </div>
+
+       
+            <div class="col-2">
+                <button class="btn btn-secondary" style="margin:2rem" id="add">Add</button>
+        </div>
+        }
+
+        <div class="col-3">
+            <div class="form-group">
+                <label class="form-check-label" style="color: #605050">Courses</label>
+                <select id="AllCourseList" size="1" class="form-control" style="color: #605050">
+                </select>
+                <span class="text-danger"></span>
+            </div>
+        </div>
+
+        @if (User.IsInRole("ADMIN"))
+        {
+            <div class="col-1">
+                <button class="btn btn-secondary" style="margin:2rem" id="remove">Remove</button>
+            </div>
+        }
+    </div>
+}
+
+
+
+
+
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" /> 
+    <script>
+        var occupied = 0;
+        
+        $("#No_Of_Semesters").change(function () {
+            $("#SemesterList").empty(options);
+            var noOfSem = $("#No_Of_Semesters").val();
+            var options = "<option selected disabled>Choose Semester</option>";
+
+            for(var i=1; i<=noOfSem; i++)
+            { 
+                options += '<option value="' + i + '">' + i + '</option>';
+            }
+        $("#SemesterList").append(options);
+        });
+        
+        $(document).ready(function(){
+            debugger;
+            $("#SemesterList").empty(options);
+            var noOfSem = $("#No_Of_Semesters").val();
+            $("#No_Of_Semesters").siblings('output').text(noOfSem);
+            var noOfYear = $("#No_Of_Years").val();
+            $("#No_Of_Years").siblings('output').text(noOfYear);
+
+            var options = "<option selected disabled>Choose Semester</option>";
+
+            for(var i=1; i<=noOfSem; i++)
+            { 
+                options += '<option value="' + i + '">' + i + '</option>';
+            }
+            $("#SemesterList").append(options);
+
+            var degreeId = $("#Id").val();
+            var totalCount = $("#TotalSeats").val();
+            $.ajax({
+                url: '/api/Degree/getRemainingSeats',
+                data: { totalCount: totalCount, degreeId : degreeId},
+                method: 'GET'
+            }).done(function (data) {
+                occupied = data["count"];
+                var remaining = totalCount - occupied;
+                $("#RemainingSeats").val(remaining);
+            }).fail(function () {
+            });
+            
+        });
+        
+       
+
+
+        $("#Search").keyup(function () {
+            
+            var query = $("#Search").val();
+            $("#CourseList").empty();
+            
+            $.ajax({
+                url: '/api/Degree/getAllCourses',
+                data: { query: query },
+                method: 'GET'
+            }).done(function (data) {
+
+                var options = "";
+                $.each(data["courses"], function (index, value) {
+                    options += '<option  value="' + value["id"] + '">' + value["courseName"] + '</option>';
+                });
+                $("#CourseList").append(options);
+            }).fail(function () {
+            });
+        });
+
+        $("#SemesterList").change(function () {
+            fillCourseList();
+        });
+
+        function fillCourseList() {
+            debugger;
+
+                var DegreeId = $("#Id").val();
+                var Semester = $("#SemesterList").val();
+                
+                var courseSearchViewModel = {
+                    Semester: Semester,
+                    DegreeId: DegreeId,
+                    CourseId: 0,
+                    Courses: null
+                };
+
+                $("#AllCourseList").empty();
+
+            $.ajax({
+                url: '/api/Degree/getSemesterCourses',
+                data: { courseSearchViewModel: courseSearchViewModel },
+                method: 'POST'
+            }).done(function (data) {
+                debugger;
+
+                options = "";
+                $.each(data["courseList"], function (index, value) {
+                    options += '<option value="' + value["id"] + '">' + value["courseName"] + '</option>';
+                });
+                $("#AllCourseList").append(options);
+            }).fail(function (jqXHR, textStatus, errorThrown) {
+                console.error("AJAX error: " + textStatus + ' : ' + errorThrown);
+                console.error("Response: ", jqXHR.responseText);
+            });
+        }
+
+            
+        $("#add").click(function () {
+
+            debugger;
+            var courseId = $("#CourseList").val();
+            var degreeId = $("#Id").val();
+            var semester = $("#SemesterList").val();
+            var courseSearchViewModel = {
+                Semester: semester,
+                DegreeId: degreeId,
+                CourseId: courseId,
+                Courses: null
+            };
+
+            $.ajax({
+                url: '/api/Degree/setCourse',
+                data: { courseSearchViewModel:courseSearchViewModel },
+                method: 'POST'
+            }).done(function (data) {
+                    debugger;
+                    fillCourseList();
+                }).fail(function () {
+            });
+        });
+
+        $("#remove").click(function () {
+            
+            $("#AllCourseList option:selected").each(function () {
+                debugger;
+                var courseId = $(this).val();
+                var degreeId = $("#Id").val();
+                var semester = $("#SemesterList").val();
+
+                var courseSearchViewModel = {
+                    Semester: semester,
+                    DegreeId: degreeId,
+                    CourseId: courseId,
+                    Courses: null
+                };
+
+                $.ajax({
+                    url: '/api/Degree/DeleteCourse',
+                    data: { courseSearchViewModel: courseSearchViewModel },
+                    method: 'POST'
+                }).done(function (data) {
+                    debugger;
+                    fillCourseList();
+                }).fail(function () {
+                });
+            })
+        });
+
+        $("#TotalSeats").change(function () {
+            
+            var totalCount = $("#TotalSeats").val();
+            var remaining = totalCount - occupied;
+            $("#RemainingSeats").val(remaining);
+        });
+
+        $(".chooseRange").on('input',function () {
+            var num = $(this).val();
+            $(this).siblings('output').text(num);
+        });
+       
+    </script>
+
+    @if (!User.IsInRole("ADMIN"))
+
+    {
+        <script>
+            $(document).ready(function () {
+            debugger;
+            $('input, select').prop('disabled', true);
+            $("#SemesterList").prop('disabled', false);
+            $("#AllCourseList").prop('disabled', false);
+            });
+        </script>
+    }
+}

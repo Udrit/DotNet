@@ -1,0 +1,324 @@
+﻿@model Prabin_SMS.Models.Entity.Student
+
+@{
+    ViewData["Title"] = "Student";
+}
+
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+
+<h1>@ViewData["Student"]</h1>
+
+
+
+<form action="AddEdit" method="post" enctype="multipart/form-data">
+    <div class="row mt-4 w-100">
+        <div class="col-4"> 
+            <div class="row">
+                 <div class="col-4">
+
+                    @if (Model.Id == 0)
+                    {
+                        <h4 style="color: #605050"> Add </h4>
+                    }
+                    else
+                    {
+                        <h4 style="color: #605050"> Edit </h4>
+                    }
+                        
+                </div>
+                <div class="col-4" style="margin-left:-8%">
+                    <h4 style="color: #605050">Student</h4>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 11.5%;">
+                <div class="col-12">
+                    <input asp-for="FirstName" class="form-control addEditInput" autocomplete="username" aria-required="true" />
+                    <label asp-for="FirstName"></label>
+
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+
+                    <input asp-for="Email" class="form-control addEditInput" autocomplete="username" aria-required="true" />
+                    <label asp-for="Email"></label>
+
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-12">
+
+                    <input asp-for="Batch" type="date" class="form-control addEditInput" />
+                    <label asp-for="Batch" style="color: #605050"></label>
+                    <span asp-validation-for="Batch" class="text-danger"></span>
+                </div>
+            </div>
+            @if (Model.Id != 0)
+            {
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <select asp-for="SectionId" class="form-control addEditInput" autocomplete="username" aria-required="true" asp-items="@(Html.GetEnumSelectList<Prabin_SMS.Models.Enum.SectionEnum>())">
+                            <option disabled selected value="null">--CHOOSE</option>
+                        </select>
+                        <label asp-for="SectionId"></label>
+                        <span asp-validation-for="SectionId" class="text-danger"></span>
+                    </div>
+                </div>
+            }
+
+            <div class="row mt-4">
+                <div class="col-12 d-flex" style="justify-content: flex-end;">
+                    <div class="form-group">
+                        <input type="checkbox" asp-for="IsEnrolled">
+                        <label class="form-check-label" asp-for="IsEnrolled">
+
+                        </label>
+                        <span asp-validation-for="IsEnrolled" class="text-danger"></span>
+                    </div>
+
+
+                    
+                </div>
+
+            </div>
+            
+
+        </div>
+    
+        <div class="col-4 ms-5">
+                <select asp-for="DegreeId" id="DegreeId" class="form-control addEditInput" autocomplete="username" aria-required="true" asp-items="@(new SelectList(ViewBag.DegreeList,"Id","DegreeName"))">
+                    <option selected value="null">None</option>
+                </select>
+                <label>Degree</label>
+                <span asp-validation-for="DegreeId" class="text-danger"></span>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <input asp-for="LastName" class="form-control addEditInput" autocomplete="username" aria-required="true" />
+                    <label asp-for="LastName"></label>
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+            </div>
+
+
+            <div class="row mt-4">
+                <div class="col-12">
+                    <input asp-for="Address" class="form-control addEditInput" autocomplete="username" aria-required="true" />
+                    <label asp-for="Address"></label>
+                    <span asp-validation-for="Address" class="text-danger"></span>
+                </div>
+            </div>
+
+
+
+            <div class="row mt-4">
+                <div class="col-12">
+                    <input asp-for="PhoneNumber" class="form-control addEditInput" autocomplete="username" aria-required="true" />
+                    <label asp-for="PhoneNumber"></label>
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+            </div>
+
+            @if (Model.Id != 0)
+            {
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <label class="form-label">Semester:</label>
+                        <output id="output"></output>
+                        <input type="range" asp-for="Semester" class="form-range" id="customRange" oninput="this.nextElementSibling.value = this.value" min="1">
+                    </div>
+                </div>
+            }
+
+            <div class="row mt-4">
+                <div class="col-8">
+                    @if (User.IsInRole("ADMIN"))
+                    {
+                        <div class="row">
+                            <div class="col-12 d-flex">
+                                @if (Model.Id == 0)
+                                {
+                                <button type="submit" class="btn btn-secondary float-end">Add</button>
+                                 }
+                                else 
+                                {
+                                <button type="submit" class="btn btn-secondary float-end">Edit</button>
+                                }
+                            </div>
+                        </div>
+                    }
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="col-3" style="align-items: center;
+                                    display: flex;
+                                    flex-flow: column;">
+            <label>Photo</label>
+            <div class="image-uploaded">
+                @if (!string.IsNullOrEmpty(Model?.studenturl))
+                {
+                    <img src="/@Model?.studenturl" id="Stuphoto" class="Photo img-thumbnail align-center addEditInput addEditImgUser" style="height:200px;width:180px;" />
+                }
+                else
+                {
+                    <img src="~/images/NoPhoto.png" id="NoStuPhoto" class="NoPhoto img-thumbnail align-center addEditInput addEditImgUser" style="height:200px;width:180px;">
+                }
+            </div>
+            @if (User.IsInRole("ADMIN"))
+            {
+                <div class="row" >
+                    <div class="input-group input-file mt-1">
+                        <label class="input-group-btn ">
+                            <span class="btn btn-large btn-secondary">
+                                Upload Photo
+                                <input asp-for="studentPhoto" class="form-control" onchange="readURL(this, '@Model?.studenturl','StuPhoto','NoStuPhoto' )" style="display: none;" />
+                                <span asp-validation-for="studentPhoto" class="text-danger"></span>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+            }
+       
+             @if (User.IsInRole("ADMIN"))
+            {
+                <div class="row mt-4">
+                    <div class="col-6 p-0" style="align-items: center;
+                                            display: flex;
+                                            flex-flow: column;">
+                        <label>Transcript</label>
+                        <div class="image-uploaded">
+                            @if (!string.IsNullOrEmpty(Model?.transcriptPhotoUrl))
+                            {
+                                <img src="/@Model?.transcriptPhotoUrl" id="TransPhoto" class="Photo img-thumbnail align-center addEditInput addEditImage" style="height:200px;width:180px;" />
+                            }
+                            else
+                            {
+                                <img src="~/images/NoPhoto.png" id="NoTransPhoto" class="NoPhoto img-thumbnail align-center addEditInput addEditImage" style="height:200px;width:180px;">
+                            }
+
+                        </div>
+
+                        <div class="input-group input-file mt-2">
+                            <label class="input-group-btn ">
+                                <span class="btn btn-large btn-secondary  ms-3">
+                                    Upload Photo
+                                    <input asp-for="transcriptPhoto" class="form-control" onchange="readURL(this, '@Model?.transcriptPhotoUrl', 'TransPhoto', 'NoTransPhoto')" style="display: none;" />
+                                    <span asp-validation-for="transcriptPhoto" class="text-danger"></span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="col-6 p-0" style="align-items: center;
+                                            display: flex;
+                                            flex-flow: column;">
+                        <label>Citizenship</label>
+                        <div class="image-uploaded">
+                            @if (!string.IsNullOrEmpty(Model?.citizenshipPhotoUrl))
+                            {
+                                <img src="/@Model?.citizenshipPhotoUrl" id="CitizenPhoto" class="Photo img-thumbnail align-center addEditInput addEditImage" style="height:200px;width:180px;" />
+                            }
+                            else
+                            {
+                                <img src="~/images/NoPhoto.png" id="NoCitizenPhoto" class="NoPhoto img-thumbnail align-center addEditInput addEditImage" style="height:200px;width:180px;">
+                            }
+
+                        </div>
+
+                        <div class="input-group input-file mt-2">
+                            <label class="input-group-btn ">
+                                <span class="btn btn-large btn-secondary ms-3">
+                                    Upload Photo
+                                    <input asp-for="citizenshipPhoto" class="form-control addEditInput" onchange="readURL(this, '@Model?.citizenshipPhotoUrl', 'CitizenPhoto','NoCitizenPhoto')" style="display: none;" />
+                                    <span asp-validation-for="citizenshipPhoto" class="text-danger"></span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            }
+         </div>
+
+           
+    </div>
+    
+    <input asp-for="Id" id="Id" hidden />
+ 
+</form>
+
+
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        function readURL(input, url, imgID, noImgID) {
+            debugger;
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                var $imgElement = $('#' + imgID);
+                var $noImgElement = $('#' + noImgID);
+
+                if (url == '') {
+                    reader.onload = function (e) {
+                        $noImgElement.attr('src', e.target.result);
+                    }
+                }
+                else {
+                    reader.onload = function (e) {
+                        $imgElement.attr('src', e.target.result);
+                    }
+                }
+                reader.readAsDataURL(input.files[0]);
+            }
+
+            
+        }
+
+        $(document).ready(function () {
+            var DegreeId = $("#DegreeId").val();
+            $.ajax({
+                url: "/api/Degree/getSemesterNo",
+                data: { DegreeId: DegreeId },
+                method: "get"
+            }).done(function (data) {
+                $("#customRange").attr("max", data["number"]);
+            });
+
+            if (@User.IsInRole("STUDENT")) {
+                $('input, textarea, select').prop('disabled', true);
+            }
+        });
+
+
+        $("#DegreeId").change(function () {
+            debugger;
+            var DegreeId = $("#DegreeId").val();
+            $.ajax({
+                url: "/api/Degree/getSemesterNo",
+                data: { DegreeId: DegreeId },
+                method: "get"
+            }).done(function (data) {
+                $("#customRange").attr("max", data["number"]);
+            });
+        });
+
+    </script>
+
+    @if (!User.IsInRole("ADMIN"))
+
+    {
+        <script>
+            $(document).ready(function () {
+                debugger;
+                $('input, select').prop('disabled', true);
+            });
+        </script>
+    }
+}
+

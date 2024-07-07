@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "UdritDhakal_SMS/1.0.0": {
+        "runtime": {
+          "UdritDhakal_SMS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UdritDhakal_SMS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

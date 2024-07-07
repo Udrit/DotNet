@@ -1,0 +1,82 @@
+﻿@model UdritDhakal.Models.ViewModels.ProductViewModel
+
+
+
+<div class="row">
+
+    <nav class="navbar bg-secondary mb-5">
+        <div class="container-fluid">
+            <form class="d-flex justify-content-end align-items-center" role="search" method="get" asp-action="search">
+                <div class="form-group me-2">
+                    
+                    <select asp-for="searchViewModel.categoryId" class="form-control" asp-items="@(new SelectList(ViewBag.CategoryInfos, "Id", "categoryName"))">
+                        <option value="null" selected disabled>-Category-</option>
+                    </select>
+                    <span id="CategoryInfoId" class="text-danger"></span>
+                </div>
+                <div class="form-group me-2">
+                    <input asp-for="searchViewModel.ProductName" class="form-control" type="search" placeholder="Product" aria-label="Search">
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </div>
+            </form>
+        </div>
+    </nav>
+
+    @foreach (var product in Model.products) 
+    {
+
+    
+
+
+        <div class="col-md-3 mb-4 ">
+            <div class="card border">
+                <img src="/@product.ImageUrl" class="card-img-top" alt="@product.ProductName">
+                <div class="card-body">
+                    <h5 class="card-title">@product.ProductName</h5>
+                    <p class="card-text">Price: @product.Rate</p>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#productModal-@product.Id">
+                        View Details
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="productModal-@product.Id" tabindex="-1" role="dialog" aria-labelledby="productModalLabel-@product.Id" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header fs-5">
+                        <h5 class="modal-title" id="productModalLabel-@product.Id">@product.ProductName Details</h5>
+                       
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col">
+                                <img src="/@product.ImageUrl" class="img-fluid" style="width:100; height:auto" alt="@product.ProductName">
+                            </div>
+                          
+                        </div>
+                        <div class="row">
+                            <div class="col-8">
+                                <p><strong>Name:</strong> @product.ProductName</p>
+                               
+                                <p><strong>Batch Number:</strong> @product.batchNo</p>
+                                <p><strong>Manufactured Date:</strong> @product.productionDate</p>
+                                <p><strong>Quantity: </strong> @product.quantity</p>
+                                <p><strong>Rate:</strong> @product.Rate</p>
+                                <p class="border"><strong>Description:</strong> @product.ProductDescription</p>
+                            </div>
+                            </div>
+                      
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    }
+</div>
+

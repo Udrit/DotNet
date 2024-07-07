@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdritDhakal_SMS", "UdritDhakal_SMS.csproj", "{0D5D81BD-5386-4EBA-9690-80DE5FE9B192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdritDhakal.Models", "..\UdritDhakal.Models\UdritDhakal.Models.csproj", "{5F3D2908-1835-4C6A-B0F3-26A8D7D66AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdritDhakal.Services", "..\UdritDhakal.Services\UdritDhakal.Services.csproj", "{80C404E7-0FAF-46CD-8D18-49086F96237D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdritDhakal.Repositories", "..\UdritDhakal.Repositories\UdritDhakal.Repositories.csproj", "{53C19D71-C5CE-4FF5-8F6F-78EA8FF39AB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdritDhakal.UtiIities", "..\UdritDhakal.UtiIities\UdritDhakal.UtiIities.csproj", "{96918011-BC4C-4A21-9609-A2F812B7DC99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdritDhakal.ViewModels", "..\UdritDhakal.ViewModels\UdritDhakal.ViewModels.csproj", "{4278EC3E-992E-4742-B349-89BAEB3DB517}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D5D81BD-5386-4EBA-9690-80DE5FE9B192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5D81BD-5386-4EBA-9690-80DE5FE9B192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5D81BD-5386-4EBA-9690-80DE5FE9B192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5D81BD-5386-4EBA-9690-80DE5FE9B192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F3D2908-1835-4C6A-B0F3-26A8D7D66AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F3D2908-1835-4C6A-B0F3-26A8D7D66AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F3D2908-1835-4C6A-B0F3-26A8D7D66AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F3D2908-1835-4C6A-B0F3-26A8D7D66AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80C404E7-0FAF-46CD-8D18-49086F96237D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C404E7-0FAF-46CD-8D18-49086F96237D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C404E7-0FAF-46CD-8D18-49086F96237D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C404E7-0FAF-46CD-8D18-49086F96237D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C19D71-C5CE-4FF5-8F6F-78EA8FF39AB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C19D71-C5CE-4FF5-8F6F-78EA8FF39AB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C19D71-C5CE-4FF5-8F6F-78EA8FF39AB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C19D71-C5CE-4FF5-8F6F-78EA8FF39AB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96918011-BC4C-4A21-9609-A2F812B7DC99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96918011-BC4C-4A21-9609-A2F812B7DC99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96918011-BC4C-4A21-9609-A2F812B7DC99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96918011-BC4C-4A21-9609-A2F812B7DC99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4278EC3E-992E-4742-B349-89BAEB3DB517}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4278EC3E-992E-4742-B349-89BAEB3DB517}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4278EC3E-992E-4742-B349-89BAEB3DB517}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4278EC3E-992E-4742-B349-89BAEB3DB517}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A3F0370-77B1-4F50-9805-363CEFE96B10}
+	EndGlobalSection
+EndGlobal

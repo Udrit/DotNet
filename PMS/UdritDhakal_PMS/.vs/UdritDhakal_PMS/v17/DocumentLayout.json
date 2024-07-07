@@ -1,0 +1,1116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PMS\\UdritDhakal_PMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\views\\detail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:views\\detail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:views\\home\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\data\\seedingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:data\\seedingdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA67246-1EE3-4E7E-B03E-3F6B92A6A7F4}|..\\UdritDhakal.Models\\UdritDhakal.Models.csproj|d:\\pms\\udritdhakal.models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA67246-1EE3-4E7E-B03E-3F6B92A6A7F4}|..\\UdritDhakal.Models\\UdritDhakal.Models.csproj|d:\\pms\\udritdhakal.models\\viewmodels\\searchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA67246-1EE3-4E7E-B03E-3F6B92A6A7F4}|..\\UdritDhakal.Models\\UdritDhakal.Models.csproj|d:\\pms\\udritdhakal.models\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA67246-1EE3-4E7E-B03E-3F6B92A6A7F4}|..\\UdritDhakal.Models\\UdritDhakal.Models.csproj|d:\\pms\\udritdhakal.models\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA67246-1EE3-4E7E-B03E-3F6B92A6A7F4}|..\\UdritDhakal.Models\\UdritDhakal.Models.csproj|d:\\pms\\udritdhakal.models\\entity\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A38C3-BC6E-4B72-A8B9-F8EBEE4E8631}|..\\UdritDhakal.Infrastructure\\UdritDhakal.Infrastructure.csproj|d:\\pms\\udritdhakal.infrastructure\\productdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A38C3-BC6E-4B72-A8B9-F8EBEE4E8631}|..\\UdritDhakal.Infrastructure\\UdritDhakal.Infrastructure.csproj|d:\\pms\\udritdhakal.infrastructure\\entity_configuration\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\controllers\\detailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:controllers\\detailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\views\\shared\\notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:views\\shared\\notification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\views\\product\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:views\\product\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\views\\category\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:views\\category\\addedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\resendemailconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\resendemailconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\resetpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\resetpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\registerconfirmation.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\manage\\resetauthenticator.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\resetauthenticator.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\manage\\generaterecoverycodes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\generaterecoverycodes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\personaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\manage\\twofactorauthentication.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\twofactorauthentication.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\manage\\setpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\setpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\manage\\externallogins.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\externallogins.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\enableauthenticator.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\email.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\manage\\disable2fa.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\disable2fa.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\manage\\downloadpersonaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\downloadpersonaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\manage\\changepassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\loginwithrecoverycode.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\loginwithrecoverycode.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\loginwith2fa.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\loginwith2fa.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\forgotpassword.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\externallogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\externallogin.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\confirmemailchange.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\confirmemailchange.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\confirmemail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\confirmemail.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\areas\\identity\\pages\\account\\loginwith2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:areas\\identity\\pages\\account\\loginwith2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\udritdhakal_pms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:udritdhakal_pms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A38C3-BC6E-4B72-A8B9-F8EBEE4E8631}|..\\UdritDhakal.Infrastructure\\UdritDhakal.Infrastructure.csproj|d:\\pms\\udritdhakal.infrastructure\\irepository\\icrudservice\\icrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A38C3-BC6E-4B72-A8B9-F8EBEE4E8631}|..\\UdritDhakal.Infrastructure\\UdritDhakal.Infrastructure.csproj|d:\\pms\\udritdhakal.infrastructure\\entity_configuration\\categoryconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B1A38C3-BC6E-4B72-A8B9-F8EBEE4E8631}|..\\UdritDhakal.Infrastructure\\UdritDhakal.Infrastructure.csproj|d:\\pms\\udritdhakal.infrastructure\\repository\\crud\\crudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E393387-721E-4DAE-85C7-DAFA31CFF438}|..\\UdritDhakal.Services\\UdritDhakal.Services.csproj|d:\\pms\\udritdhakal.services\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA67246-1EE3-4E7E-B03E-3F6B92A6A7F4}|..\\UdritDhakal.Models\\UdritDhakal.Models.csproj|d:\\pms\\udritdhakal.models\\udritdhakal.models.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|d:\\pms\\udritdhakal_pms\\migrations\\20240622043822_error-fix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{547F6DB1-CD0F-4F04-9617-92E03FE3B387}|UdritDhakal_PMS.csproj|solutionrelative:migrations\\20240622043822_error-fix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SearchVIewModel.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal.Models\\Viewmodels\\SearchVIewModel.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Models\\Viewmodels\\SearchVIewModel.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal.Models\\Viewmodels\\SearchVIewModel.cs",
+              "RelativeToolTip": "..\\UdritDhakal.Models\\Viewmodels\\SearchVIewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T03:44:45.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal.Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Models\\BaseEntity.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal.Models\\BaseEntity.cs",
+              "RelativeToolTip": "..\\UdritDhakal.Models\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T03:45:15.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SeedingData.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Data\\SeedingData.cs",
+              "RelativeDocumentMoniker": "Data\\SeedingData.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Data\\SeedingData.cs",
+              "RelativeToolTip": "Data\\SeedingData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T03:55:32.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal.Infrastructure\\Entity_Configuration\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Infrastructure\\Entity_Configuration\\ProductConfiguration.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal.Infrastructure\\Entity_Configuration\\ProductConfiguration.cs",
+              "RelativeToolTip": "..\\UdritDhakal.Infrastructure\\Entity_Configuration\\ProductConfiguration.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T03:38:23.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Views\\Home\\Home.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Home.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Views\\Home\\Home.cshtml",
+              "RelativeToolTip": "Views\\Home\\Home.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAMUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T05:08:49.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Views\\Detail\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Detail\\Index.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Views\\Detail\\Index.cshtml",
+              "RelativeToolTip": "Views\\Detail\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T04:28:50.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T03:58:19.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T04:25:59.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal.Models\\Viewmodels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Models\\Viewmodels\\ProductViewModel.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal.Models\\Viewmodels\\ProductViewModel.cs",
+              "RelativeToolTip": "..\\UdritDhakal.Models\\Viewmodels\\ProductViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T03:44:17.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal.Models\\Entity\\Product.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Models\\Entity\\Product.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal.Models\\Entity\\Product.cs",
+              "RelativeToolTip": "..\\UdritDhakal.Models\\Entity\\Product.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T03:46:38.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal.Models\\Entity\\Category.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Models\\Entity\\Category.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal.Models\\Entity\\Category.cs",
+              "RelativeToolTip": "..\\UdritDhakal.Models\\Entity\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T03:46:12.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductDbContext.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal.Infrastructure\\ProductDbContext.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Infrastructure\\ProductDbContext.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal.Infrastructure\\ProductDbContext.cs",
+              "RelativeToolTip": "..\\UdritDhakal.Infrastructure\\ProductDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T03:41:05.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Views\\Product\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\AddEdit.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Views\\Product\\AddEdit.cshtml",
+              "RelativeToolTip": "Views\\Product\\AddEdit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T06:50:06.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DetailController.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Controllers\\DetailController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DetailController.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Controllers\\DetailController.cs",
+              "RelativeToolTip": "Controllers\\DetailController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T04:27:52.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T05:01:04.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Notification.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Views\\Shared\\Notification.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Notification.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Views\\Shared\\Notification.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Notification.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T06:35:36.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAABoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T04:32:56.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T04:32:54.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T04:22:33.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Index.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Views\\Category\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T04:22:20.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddEdit.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Views\\Category\\AddEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\AddEdit.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Views\\Category\\AddEdit.cshtml",
+              "RelativeToolTip": "Views\\Category\\AddEdit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T06:52:47.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T06:41:18.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T06:42:08.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T06:39:49.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T06:42:18.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T06:42:23.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ResetAuthenticator.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:16:26.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ManageNav.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T06:16:37.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ResendEmailConfirmation.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAASwBYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:17:07.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RegisterConfirmation.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAASwBQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:16:45.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ResetPassword.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAASwBMAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:16:56.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GenerateRecoveryCodes.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:16:17.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PersonalData.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:16:06.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TwoFactorAuthentication.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwBAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:15:56.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAASwBwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:15:45.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "SetPassword.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAASwBEAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:15:35.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAIA5wD8AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:15:26.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ExternalLogins.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ExternalLogins.cshtml.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAASwBQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:15:18.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "EnableAuthenticator.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAASwBUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:15:04.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Email.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAASwBQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:14:55.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Disable2fa.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\Disable2fa.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:14:47.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DownloadPersonalData.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAASwBQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:14:29.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DeletePersonalData.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAASwBEAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:14:20.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ChangePassword.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:14:12.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:14:05.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "LoginWithRecoveryCode.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:13:58.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "LoginWith2fa.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAASwBMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:13:49.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ForgotPassword.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAASwBUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:13:36.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ExternalLogin.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAASwBoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:13:29.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ConfirmEmailChange.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwBIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:13:20.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ConfirmEmail.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAASwBMAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:13:08.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T06:09:12.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-22T04:34:01.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T03:55:00.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T03:56:53.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T06:10:30.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T06:10:41.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T03:51:45.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T05:49:45.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T04:22:22.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CategoryConfiguration.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal.Infrastructure\\Entity_Configuration\\CategoryConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Infrastructure\\Entity_Configuration\\CategoryConfiguration.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal.Infrastructure\\Entity_Configuration\\CategoryConfiguration.cs",
+              "RelativeToolTip": "..\\UdritDhakal.Infrastructure\\Entity_Configuration\\CategoryConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T03:36:45.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "UdritDhakal_PMS.csproj",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\UdritDhakal_PMS.csproj",
+              "RelativeDocumentMoniker": "UdritDhakal_PMS.csproj",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\UdritDhakal_PMS.csproj",
+              "RelativeToolTip": "UdritDhakal_PMS.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-22T05:48:52.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "LoginWith2fa.cshtml",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-22T05:49:44.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ICrudService.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal.Infrastructure\\IRepository\\ICrudService\\ICrudService.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Infrastructure\\IRepository\\ICrudService\\ICrudService.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal.Infrastructure\\IRepository\\ICrudService\\ICrudService.cs",
+              "RelativeToolTip": "..\\UdritDhakal.Infrastructure\\IRepository\\ICrudService\\ICrudService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T04:54:41.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "20240622043822_Error-fix.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal_PMS\\Migrations\\20240622043822_Error-fix.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240622043822_Error-fix.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal_PMS\\Migrations\\20240622043822_Error-fix.cs",
+              "RelativeToolTip": "Migrations\\20240622043822_Error-fix.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T04:38:22.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "CrudService.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal.Infrastructure\\Repository\\CRUD\\CrudService.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Infrastructure\\Repository\\CRUD\\CrudService.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal.Infrastructure\\Repository\\CRUD\\CrudService.cs",
+              "RelativeToolTip": "..\\UdritDhakal.Infrastructure\\Repository\\CRUD\\CrudService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T04:13:04.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal.Services\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Services\\Services\\EmailSender.cs",
+              "ToolTip": "D:\\PMS\\UdritDhakal.Services\\Services\\EmailSender.cs",
+              "RelativeToolTip": "..\\UdritDhakal.Services\\Services\\EmailSender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-22T03:42:57.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "UdritDhakal.Models.csproj",
+              "DocumentMoniker": "D:\\PMS\\UdritDhakal.Models\\UdritDhakal.Models.csproj",
+              "RelativeDocumentMoniker": "..\\UdritDhakal.Models\\UdritDhakal.Models.csproj",
+              "ToolTip": "D:\\PMS\\UdritDhakal.Models\\UdritDhakal.Models.csproj",
+              "RelativeToolTip": "..\\UdritDhakal.Models\\UdritDhakal.Models.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-22T03:43:49.626Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

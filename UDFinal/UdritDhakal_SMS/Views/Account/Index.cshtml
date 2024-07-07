@@ -1,0 +1,103 @@
+﻿@model IEnumerable<Prabin_SMS.Models.ViewModels.UserInfo>
+
+<h2>User Management</h2>
+<div class="row">
+    <div class="col-12">
+        <a class="btn btn-primary float-end" asp-action="AddUser">Add User</a>
+    </div>
+</div>
+<h3 class="align-content-center">User List</h3>
+<div class="form-outline" data-mdb-input-init>
+    <input type="search" id="form1" class="form-control" placeholder="Type query" aria-label="Search" />
+</div>
+<div class="row">
+    <div class="col-12">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>S.N.</th>
+                    <th>
+                        Email
+                    </th>
+                    <th>
+                        Full Name
+                    </th>
+                    <th>
+                        Role Name
+                    </th>
+                    <th>
+                        Address
+                    </th>
+                    <th>
+                        Phone Number
+                    </th>
+                    <th>Status</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    int count = 1;
+                }
+                @foreach(var items in Model)
+                {
+                    <tr>
+                        <td>
+                            @count
+                        </td>
+                        <td>
+                            @items.Email
+                        </td>
+                        <td>
+                            @items.FullName
+                        </td>
+                        <td>
+                            @items.RoleName
+                        </td>
+                        <td>
+                            @items.Address
+                        </td>
+                        <td>
+                            @items.PhoneNumber
+                        </td>
+                        <td>
+                            @if (items.IsActive == true)
+                            {
+                                @:True
+                            }
+                            else
+                            {
+                                @:False
+                            }
+                           
+                        </td>
+                        <td>
+                            <a class="btn btn-primary float-end" asp-action="EditUser" asp-route-id="@items.Id">Edit</a>
+                            @if (items.IsActive == true)
+                            {
+                                <a class="btn btn-danger" onclick="active('@items.Id')">Deactive</a>
+                            }
+                            else
+                            {
+                                <a class="btn btn-success" onclick="active('@items.Id')">Active</a>
+                            }
+                            
+                        </td>
+                    </tr>
+                    count = count + 1;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="col-3"></div>
+
+
+
+@section Scripts {
+    <script>
+        function active(itemid) {
+            window.location.href = '/Account/UserStatus?Id=' + itemid;
+        }
+    </script>
+}
